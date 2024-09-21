@@ -1,0 +1,24 @@
+---
+layout: default
+title: Vegetables
+vegetables:
+ - title: Brussels Sprouts
+   description: The best brassica.
+ - title: Broccoli
+   description: The second best brassica.
+ - title: Potato
+   description: The best tuber.
+---
+
+<section>
+
+    {% for item in page.vegetables %}
+    <div class="card">
+        <h3>{{item.title}}</h3>
+        <p>{{item.description}}</p>
+
+    </div>
+    {% endfor %}
+
+</section>
+  

@@ -3,3 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+
+section { padding: 5%; }
+
+h1 {
+    background-color: blue;
+    padding: 5%;
+}
+
+h2 {
+    background-color:brown;
+    padding: 10%;
+}
+
+nav {
+    padding: 5%;
+    font-size: 4rem;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover { text-decoration: overline; }
+
+.card {
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 1rem;
+    max-width: 20%;
+    display: inline-block;
+}
